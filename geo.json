@@ -1,0 +1,11 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SupplyLink",
+  "url": "https://uscompliance-team.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://uscompliance-team.com/products.html?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}

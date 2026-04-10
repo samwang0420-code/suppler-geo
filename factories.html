@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SupplyLink | Verified Factories</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+tailwind.config = { theme: { extend: { colors: { primary: "#00113a", secondary: "#006c48", "primary-container": "#002366", "on-primary": "#ffffff", "on-secondary": "#ffffff", surface: "#f8f9fa" }, fontFamily: { headline: ["Manrope"], body: ["Inter"] } } } }
+</script>
+<style>body { font-family: 'Inter', sans-serif; }h1, h2, h3 { font-family: 'Manrope', sans-serif; }</style>
+</head>
+<body class="bg-surface">
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+<div class="flex justify-between items-center px-8 h-20 max-w-screen-2xl mx-auto">
+<div class="flex items-center gap-12">
+<a href="index.html" class="text-2xl font-black text-blue-900 tracking-tighter">SupplyLink</a>
+<div class="hidden md:flex gap-8">
+<a href="products.html" class="text-slate-600 hover:text-blue-900 transition-colors">Products</a>
+<a href="factories.html" class="text-emerald-600 font-bold border-b-2 border-emerald-500 py-1">Factories</a>
+<a href="calculator.html" class="text-slate-600 hover:text-blue-900 transition-colors">Calculator</a>
+<a href="contact.html" class="text-slate-600 hover:text-blue-900 transition-colors">Contact</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<a href="contact.html" class="bg-primary text-white px-6 py-2.5 rounded-md font-bold hover:bg-blue-900 transition-all">Get a Quote</a>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-20 max-w-screen-2xl mx-auto px-8">
+<header class="mb-16 text-center">
+<span class="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4 block">Manufacturing Network</span>
+<h1 class="text-5xl font-extrabold text-primary mb-6">Verified Factory Directory</h1>
+<p class="text-gray-600 max-w-2xl mx-auto text-lg">Access our curated database of pre-vetted manufacturing facilities across China.</p>
+</header>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white rounded-xl p-8 border border-gray-100 hover:shadow-lg transition-all">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-green-600 text-2xl">factory</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary">Shenzhen Electronics Co.</h3>
+<p class="text-sm text-gray-500">Shenzhen, Guangdong</p>
+</div>
+</div>
+<div class="space-y-3 mb-6">
+<div class="flex justify-between text-sm"><span class="text-gray-500">Certifications</span><span class="font-semibold">ISO 9001, CE</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Min Order</span><span class="font-semibold">500 pcs</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Lead Time</span><span class="font-semibold">15 days</span></div>
+</div>
+<a href="contact.html" class="block text-center bg-primary text-white py-3 rounded-md font-bold hover:bg-blue-900 transition-all">Contact Factory</a>
+</div>
+<div class="bg-white rounded-xl p-8 border border-gray-100 hover:shadow-lg transition-all">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-blue-600 text-2xl">checkroom</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary">Ningbo Textiles Ltd.</h3>
+<p class="text-sm text-gray-500">Ningbo, Zhejiang</p>
+</div>
+</div>
+<div class="space-y-3 mb-6">
+<div class="flex justify-between text-sm"><span class="text-gray-500">Certifications</span><span class="font-semibold">OEKO-TEX, GOTS</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Min Order</span><span class="font-semibold">1000 pcs</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Lead Time</span><span class="font-semibold">20 days</span></div>
+</div>
+<a href="contact.html" class="block text-center bg-primary text-white py-3 rounded-md font-bold hover:bg-blue-900 transition-all">Contact Factory</a>
+</div>
+<div class="bg-white rounded-xl p-8 border border-gray-100 hover:shadow-lg transition-all">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-purple-600 text-2xl">devices</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary">Dongguan Electronics</h3>
+<p class="text-sm text-gray-500">Dongguan, Guangdong</p>
+</div>
+</div>
+<div class="space-y-3 mb-6">
+<div class="flex justify-between text-sm"><span class="text-gray-500">Certifications</span><span class="font-semibold">ISO 9001, UL</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Min Order</span><span class="font-semibold">200 pcs</span></div>
+<div class="flex justify-between text-sm"><span class="text-gray-500">Lead Time</span><span class="font-semibold">10 days</span></div>
+</div>
+<a href="contact.html" class="block text-center bg-primary text-white py-3 rounded-md font-bold hover:bg-blue-900 transition-all">Contact Factory</a>
+</div>
+</div>
+</main>
+<footer class="bg-gray-100 mt-20 border-t border-gray-200">
+<div class="max-w-screen-2xl mx-auto px-12 py-8 text-center">
+<p class="text-gray-500 text-sm">© 2026 SupplyLink Global Sourcing. All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "suppler-geo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "daily-blog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samwang0420-code/suppler-geo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samwang0420-code/suppler-geo/issues"
+  },
+  "homepage": "https://github.com/samwang0420-code/suppler-geo#readme",
+  "dependencies": {
+    "googleapis": "^171.4.0"
+  }
+}
